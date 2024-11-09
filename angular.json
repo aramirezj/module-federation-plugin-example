@@ -14,7 +14,8 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "shell:esbuild:production",
-						"polyfills": []
+						"polyfills": [],
+						"outputPath": "dist/shell/relative/path/"
 					}
 				},
 				"serve": {
@@ -119,7 +120,8 @@
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
 						"target": "mfe1:esbuild:production",
-						"polyfills": []
+						"polyfills": [],
+						"outputPath": "dist/mfe1/relative/path/"
 					}
 				},
 				"serve": {
@@ -247,5 +249,8 @@
 				}
 			}
 		}
-	}
+  },
+  "cli": {
+    "analytics": "2a420707-c203-4333-b51a-3a8019fd5cf1"
+  }
 }
